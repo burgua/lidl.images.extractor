@@ -1,0 +1,7 @@
+vendor
+.idea
+.DS_Store
+.bundle
+pdfs/*
+images/*
+phantomjs

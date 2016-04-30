@@ -1,14 +1,14 @@
 # Extracting images from Lidl Online "Angebote"
 
-First fo all install rbenv with ruby 1.9.3
+First of all install ruby.
 
-##  Installing software
+Then install additional software (OSX)
 
     brew install graphicsmagick ghostscript poppler phantomjs
 
 For Ubuntu you need to install this:
 
-    sudo apt-get install ruby1.9.3 build-essential libxslt1-dev libxml2-dev libffi-dev poppler-utils poppler-data graphicsmagick
+    sudo apt-get install build-essential libxslt1-dev libxml2-dev libffi-dev poppler-utils poppler-data graphicsmagick
 
 ## Installing gems
 
@@ -18,11 +18,6 @@ For Ubuntu you need to install this:
 ## Starting phantoms-js server
 
     phantomjs --webdriver=9888
-
-Or using Ubuntu
-
-    ./phantomjs --webdriver=9888
-
 
 ## Extract images
 
